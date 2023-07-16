@@ -37,7 +37,7 @@ export const SendMessage = () => {
         <input
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="input w-full focus:outline-none bg-gray-100 rounded-r-none"
+          className="input w-full focus:outline-none bg-gray-100 text-deep-purple rounded-r-none"
           placeholder="text message"
         />
         <button type="submit" className="w-auto bg-gray-700 text-white rounded-r-lg px-5 text-sm">
